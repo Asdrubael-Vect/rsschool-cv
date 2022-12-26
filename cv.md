@@ -12,4 +12,20 @@
 
 ### About me
 
-Want become a forntend-developer
+Want to become a forntend-developer
+
+### Code Example
+
+```
+
+function find_average(array) {
+  if(array.length ===  0){
+  return 0;
+  }
+  else{
+    return array.reduce((acc, array) => acc+ array,0)/array.length;
+    
+  }
+}
+
+```
